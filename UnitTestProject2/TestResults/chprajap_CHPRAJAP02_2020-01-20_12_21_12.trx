@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="efb02f54-e8c9-44ea-a0fb-d2d60fa800f1" name="chprajap@CHPRAJAP02 2020-01-20 12:21:12" runUser="FAREAST\chprajap" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2020-01-20T12:21:12.7658526+05:30" queuing="2020-01-20T12:21:12.7658542+05:30" start="2020-01-20T12:21:11.8067413+05:30" finish="2020-01-20T12:21:12.8405729+05:30" />
+  <TestSettings name="default" id="936cce3b-7738-47b8-94e3-79927e6e48af">
+    <Deployment runDeploymentRoot="chprajap_CHPRAJAP02_2020-01-20_12_21_12" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="73c44a42-a688-46ac-af5a-48c62cdc8345" testId="9cf9015a-072a-6bf0-6c78-b6a453e50f4b" testName="DynamicDataTestMethod1" computerName="CHPRAJAP02" duration="00:00:00.0471244" startTime="2020-01-20T12:21:12.5431127+05:30" endTime="2020-01-20T12:21:12.6204270+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73c44a42-a688-46ac-af5a-48c62cdc8345" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="5bb5c55d-1792-4ac8-bc25-d852fa4ab556" parentExecutionId="73c44a42-a688-46ac-af5a-48c62cdc8345" testId="9cf9015a-072a-6bf0-6c78-b6a453e50f4b" testName="DynamicDataTestMethod1 (1,2,3)" computerName="CHPRAJAP02" duration="00:00:00.0038128" startTime="2020-01-20T12:21:12.5431127+05:30" endTime="2020-01-20T12:21:12.6204270+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bb5c55d-1792-4ac8-bc25-d852fa4ab556" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="be857075-dfcd-4c51-a8a1-a2f9ef69e1cb" parentExecutionId="73c44a42-a688-46ac-af5a-48c62cdc8345" testId="9cf9015a-072a-6bf0-6c78-b6a453e50f4b" testName="DynamicDataTestMethod1 (4,5,6)" computerName="CHPRAJAP02" duration="00:00:00.0000134" startTime="2020-01-20T12:21:12.5431127+05:30" endTime="2020-01-20T12:21:12.6204270+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="be857075-dfcd-4c51-a8a1-a2f9ef69e1cb" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="95a34b81-86a2-4aca-a07a-a0b445954f0f" parentExecutionId="73c44a42-a688-46ac-af5a-48c62cdc8345" testId="9cf9015a-072a-6bf0-6c78-b6a453e50f4b" testName="DynamicDataTestMethod1 (7,8,9)" computerName="CHPRAJAP02" duration="00:00:00.0000020" startTime="2020-01-20T12:21:12.5431127+05:30" endTime="2020-01-20T12:21:12.6204270+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="95a34b81-86a2-4aca-a07a-a0b445954f0f" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="f7777ea0-4963-4f2a-99ee-de64467addaf" parentExecutionId="73c44a42-a688-46ac-af5a-48c62cdc8345" testId="9cf9015a-072a-6bf0-6c78-b6a453e50f4b" testName="DynamicDataTestMethod1 (10,11,1)" computerName="CHPRAJAP02" duration="00:00:00.0376069" startTime="2020-01-20T12:21:12.5431127+05:30" endTime="2020-01-20T12:21:12.6204270+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f7777ea0-4963-4f2a-99ee-de64467addaf" dataRowInfo="4" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+              <StackTrace>   at UnitTestProject2.TestClass2.DynamicDataTestMethod1(Int32 a, Int32 b, Int32 c) in C:\Users\chprajap\source\repos\UnitTestProject2\UnitTestProject2\TestClass2.cs:line 44&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="8ef7f7cf-9e9b-4cec-96d2-0ad80413768f" testId="875af1b8-212a-bf77-69b3-e188c0e076af" testName="TestMethod88" computerName="CHPRAJAP02" duration="00:00:00.0008701" startTime="2020-01-20T12:21:12.6887824+05:30" endTime="2020-01-20T12:21:12.6900351+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8ef7f7cf-9e9b-4cec-96d2-0ad80413768f">
+      <Output>
+        <StdOut>Trying to print something</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8a2fbe61-ef62-4618-b035-56063d68a1d0" testId="2702bcce-cd17-12a2-1524-fa233585c5f1" testName="TestMethod91" computerName="CHPRAJAP02" duration="00:00:00.0000758" startTime="2020-01-20T12:21:12.6918732+05:30" endTime="2020-01-20T12:21:12.6920106+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8a2fbe61-ef62-4618-b035-56063d68a1d0">
+      <Output>
+        <StdOut>Writing something .......</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2c72e924-3237-45f1-bd86-cbe47b132e75" testId="7700ba1d-c076-470b-3b05-c623aae87664" testName="DynamicDataTestMethod2" computerName="CHPRAJAP02" duration="00:00:00.0011351" startTime="2020-01-20T12:21:12.6278137+05:30" endTime="2020-01-20T12:21:12.6290715+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2c72e924-3237-45f1-bd86-cbe47b132e75" resultType="DataDrivenTest">
+      <InnerResults>
+        <UnitTestResult executionId="8522623f-dcd0-4c2b-9a45-0f776103fe7a" parentExecutionId="2c72e924-3237-45f1-bd86-cbe47b132e75" testId="7700ba1d-c076-470b-3b05-c623aae87664" testName="DynamicDataTestMethod2 (1,2,3)" computerName="CHPRAJAP02" duration="00:00:00.0001246" startTime="2020-01-20T12:21:12.6278137+05:30" endTime="2020-01-20T12:21:12.6290715+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8522623f-dcd0-4c2b-9a45-0f776103fe7a" dataRowInfo="1" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="3e53ebf4-8eab-4183-9d85-8363a2d01657" parentExecutionId="2c72e924-3237-45f1-bd86-cbe47b132e75" testId="7700ba1d-c076-470b-3b05-c623aae87664" testName="DynamicDataTestMethod2 (4,5,6)" computerName="CHPRAJAP02" duration="00:00:00.0000083" startTime="2020-01-20T12:21:12.6278137+05:30" endTime="2020-01-20T12:21:12.6290715+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3e53ebf4-8eab-4183-9d85-8363a2d01657" dataRowInfo="2" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="c00614c4-9007-4f52-b4e8-d29de4ffbac2" parentExecutionId="2c72e924-3237-45f1-bd86-cbe47b132e75" testId="7700ba1d-c076-470b-3b05-c623aae87664" testName="DynamicDataTestMethod2 (7,8,9)" computerName="CHPRAJAP02" duration="00:00:00.0000048" startTime="2020-01-20T12:21:12.6278137+05:30" endTime="2020-01-20T12:21:12.6290715+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c00614c4-9007-4f52-b4e8-d29de4ffbac2" dataRowInfo="3" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="8758eb49-c479-46fd-b112-5ea219953f46" parentExecutionId="2c72e924-3237-45f1-bd86-cbe47b132e75" testId="7700ba1d-c076-470b-3b05-c623aae87664" testName="DynamicDataTestMethod2 (10,11,12)" computerName="CHPRAJAP02" duration="00:00:00.0000054" startTime="2020-01-20T12:21:12.6278137+05:30" endTime="2020-01-20T12:21:12.6290715+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8758eb49-c479-46fd-b112-5ea219953f46" dataRowInfo="4" resultType="DataDrivenDataRow" />
+        <UnitTestResult executionId="5bcbad09-3a60-44c0-9725-e698618e58b1" parentExecutionId="2c72e924-3237-45f1-bd86-cbe47b132e75" testId="7700ba1d-c076-470b-3b05-c623aae87664" testName="DynamicDataTestMethod2 (13,14,1)" computerName="CHPRAJAP02" duration="00:00:00.0004234" startTime="2020-01-20T12:21:12.6278137+05:30" endTime="2020-01-20T12:21:12.6290715+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5bcbad09-3a60-44c0-9725-e698618e58b1" dataRowInfo="5" resultType="DataDrivenDataRow">
+          <Output>
+            <ErrorInfo>
+              <Message>Assert.AreEqual failed. Expected:&lt;0&gt;. Actual:&lt;1&gt;. </Message>
+              <StackTrace>   at UnitTestProject2.TestClass2.DynamicDataTestMethod2(Int32 a, Int32 b, Int32 c) in C:\Users\chprajap\source\repos\UnitTestProject2\UnitTestProject2\TestClass2.cs:line 54&#xD;
+</StackTrace>
+            </ErrorInfo>
+          </Output>
+        </UnitTestResult>
+      </InnerResults>
+    </UnitTestResult>
+    <UnitTestResult executionId="fd0d2ffa-7361-46f6-97b8-6e683df4b580" testId="729e9493-7d0e-f27f-6808-b54fe6b112ce" testName="TestMethod90" computerName="CHPRAJAP02" duration="00:00:00.0000814" startTime="2020-01-20T12:21:12.6917159+05:30" endTime="2020-01-20T12:21:12.6918622+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fd0d2ffa-7361-46f6-97b8-6e683df4b580">
+      <Output>
+        <StdOut>Writing something .......</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e00d471b-3898-4b54-a2ba-a84696dc888d" testId="2f3373e4-42c4-69c8-4769-ffc104b66af5" testName="TestMethod92" computerName="CHPRAJAP02" duration="00:00:00.0003017" startTime="2020-01-20T12:21:12.6920216+05:30" endTime="2020-01-20T12:21:12.6924197+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e00d471b-3898-4b54-a2ba-a84696dc888d">
+      <Output>
+        <StdOut>Writing something .......</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1697e09e-f379-47df-af99-18d95c353fcd" testId="d2ed1ad4-4ca7-44ac-d491-03ed05162ba2" testName="TestMethod889" computerName="CHPRAJAP02" duration="00:00:00.0000997" startTime="2020-01-20T12:21:12.6914863+05:30" endTime="2020-01-20T12:21:12.6917019+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1697e09e-f379-47df-af99-18d95c353fcd">
+      <Output>
+        <StdOut>Writing something .......</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="TestMethod91" storage="c:\users\chprajap\source\repos\unittestproject2\unittestproject2\bin\x64\debug\netcoreapp3.1\unittestproject2.dll" id="2702bcce-cd17-12a2-1524-fa233585c5f1">
+      <Execution id="8a2fbe61-ef62-4618-b035-56063d68a1d0" />
+      <TestMethod codeBase="C:\Users\chprajap\source\repos\UnitTestProject2\UnitTestProject2\bin\x64\Debug\netcoreapp3.1\UnitTestProject2.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject2.UnitTest1" name="TestMethod91" />
+    </UnitTest>
+    <UnitTest name="TestMethod90" storage="c:\users\chprajap\source\repos\unittestproject2\unittestproject2\bin\x64\debug\netcoreapp3.1\unittestproject2.dll" id="729e9493-7d0e-f27f-6808-b54fe6b112ce">
+      <Execution id="fd0d2ffa-7361-46f6-97b8-6e683df4b580" />
+      <TestMethod codeBase="C:\Users\chprajap\source\repos\UnitTestProject2\UnitTestProject2\bin\x64\Debug\netcoreapp3.1\UnitTestProject2.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject2.UnitTest1" name="TestMethod90" />
+    </UnitTest>
+    <UnitTest name="DynamicDataTestMethod1" storage="c:\users\chprajap\source\repos\unittestproject2\unittestproject2\bin\x64\debug\netcoreapp3.1\unittestproject2.dll" id="9cf9015a-072a-6bf0-6c78-b6a453e50f4b">
+      <Execution id="73c44a42-a688-46ac-af5a-48c62cdc8345" />
+      <TestMethod codeBase="C:\Users\chprajap\source\repos\UnitTestProject2\UnitTestProject2\bin\x64\Debug\netcoreapp3.1\UnitTestProject2.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject2.TestClass2" name="DynamicDataTestMethod1" />
+    </UnitTest>
+    <UnitTest name="DynamicDataTestMethod2" storage="c:\users\chprajap\source\repos\unittestproject2\unittestproject2\bin\x64\debug\netcoreapp3.1\unittestproject2.dll" id="7700ba1d-c076-470b-3b05-c623aae87664">
+      <Execution id="2c72e924-3237-45f1-bd86-cbe47b132e75" />
+      <TestMethod codeBase="C:\Users\chprajap\source\repos\UnitTestProject2\UnitTestProject2\bin\x64\Debug\netcoreapp3.1\UnitTestProject2.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject2.TestClass2" name="DynamicDataTestMethod2" />
+    </UnitTest>
+    <UnitTest name="TestMethod92" storage="c:\users\chprajap\source\repos\unittestproject2\unittestproject2\bin\x64\debug\netcoreapp3.1\unittestproject2.dll" id="2f3373e4-42c4-69c8-4769-ffc104b66af5">
+      <Execution id="e00d471b-3898-4b54-a2ba-a84696dc888d" />
+      <TestMethod codeBase="C:\Users\chprajap\source\repos\UnitTestProject2\UnitTestProject2\bin\x64\Debug\netcoreapp3.1\UnitTestProject2.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject2.UnitTest1" name="TestMethod92" />
+    </UnitTest>
+    <UnitTest name="TestMethod88" storage="c:\users\chprajap\source\repos\unittestproject2\unittestproject2\bin\x64\debug\netcoreapp3.1\unittestproject2.dll" id="875af1b8-212a-bf77-69b3-e188c0e076af">
+      <Execution id="8ef7f7cf-9e9b-4cec-96d2-0ad80413768f" />
+      <TestMethod codeBase="C:\Users\chprajap\source\repos\UnitTestProject2\UnitTestProject2\bin\x64\Debug\netcoreapp3.1\UnitTestProject2.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject2.UnitTest1" name="TestMethod88" />
+    </UnitTest>
+    <UnitTest name="TestMethod889" storage="c:\users\chprajap\source\repos\unittestproject2\unittestproject2\bin\x64\debug\netcoreapp3.1\unittestproject2.dll" id="d2ed1ad4-4ca7-44ac-d491-03ed05162ba2">
+      <Execution id="1697e09e-f379-47df-af99-18d95c353fcd" />
+      <TestMethod codeBase="C:\Users\chprajap\source\repos\UnitTestProject2\UnitTestProject2\bin\x64\Debug\netcoreapp3.1\UnitTestProject2.dll" adapterTypeName="executor://mstestadapter/v2" className="UnitTestProject2.UnitTest1" name="TestMethod889" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="9cf9015a-072a-6bf0-6c78-b6a453e50f4b" executionId="73c44a42-a688-46ac-af5a-48c62cdc8345" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="875af1b8-212a-bf77-69b3-e188c0e076af" executionId="8ef7f7cf-9e9b-4cec-96d2-0ad80413768f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2702bcce-cd17-12a2-1524-fa233585c5f1" executionId="8a2fbe61-ef62-4618-b035-56063d68a1d0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7700ba1d-c076-470b-3b05-c623aae87664" executionId="2c72e924-3237-45f1-bd86-cbe47b132e75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="729e9493-7d0e-f27f-6808-b54fe6b112ce" executionId="fd0d2ffa-7361-46f6-97b8-6e683df4b580" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2f3373e4-42c4-69c8-4769-ffc104b66af5" executionId="e00d471b-3898-4b54-a2ba-a84696dc888d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d2ed1ad4-4ca7-44ac-d491-03ed05162ba2" executionId="1697e09e-f379-47df-af99-18d95c353fcd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Failed">
+    <Counters total="16" executed="16" passed="12" failed="4" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>
